@@ -1,0 +1,28 @@
+.add-category{
+    display: flex;  
+    .form-area{
+        flex: 6; 
+        display: flex; 
+        flex-direction: column; 
+       
+        margin: 12px;
+        form{ 
+            label{
+                font-size: 24px; 
+                font-weight: bold;
+            }
+            input{ 
+            width: 470px; 
+            height: 60px; 
+            
+            margin-bottom: 12px; 
+            } 
+            .btn{ 
+                width: 90%; 
+                height: 60px;
+                margin: 34px;
+            } 
+           
+        }
+    }
+}

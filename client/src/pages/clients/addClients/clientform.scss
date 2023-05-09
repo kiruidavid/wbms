@@ -1,0 +1,25 @@
+.form-area{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1;
+    min-width: 100%; 
+    min-height: 100vh; 
+    background: rgba(206, 130, 130, 0.5); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;  
+    overflow: auto;
+
+    form{
+        background: #fff; 
+        border: 1px solid #000; 
+        padding: 20px; 
+        width: 560px;
+        min-height: 350px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        flex-direction: column;
+    }
+}
